@@ -1,0 +1,51 @@
+.review-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 5rem 0rem 5rem;
+}
+
+.review-wrapper h2 {
+    color: #121212;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: AbhayaLibre;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.125rem;
+}
+
+.review-wrapper-text1 {
+    margin-top: 1rem;
+    color: #666;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 187.5% */
+}
+
+.customers-reviews-wrapper {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+.art-box-wrapper {
+    display: flex;
+    margin: 4rem 10rem;
+}
+
+.get-locations-button {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    height: 3.375rem;
+    padding: 1.125rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}

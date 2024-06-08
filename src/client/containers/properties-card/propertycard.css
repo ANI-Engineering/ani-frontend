@@ -1,0 +1,58 @@
+.property-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 21.625rem;
+    height: 21.5625rem;
+}
+
+.property-image {
+    border-radius: 0.5rem;
+}
+
+.property-name {
+    margin-top: 1rem;
+}
+
+.property-name p {
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.property-type {
+    color: #666;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 1.25rem;
+    margin: 2%;
+}
+
+.property-price p {
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "DM Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: pre;
+}
+
+.property-type {
+    display: flex;
+    justify-content: center;
+}
+
+.star-rating {
+    padding-top: 0.4%;
+    padding-left: 0.7%;
+}

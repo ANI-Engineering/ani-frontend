@@ -1,0 +1,155 @@
+.header-container {
+    display: flex;
+    background-color: #fff;
+    height: 103px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo-container {
+    display: flex;
+    width: 77px;
+    height: 61.466px;
+    margin-left: 64px;
+    margin-bottom: 20.97;
+    width: max-content;
+    flex-basis: 30%;
+}
+
+.name-container {
+    margin-top: -2px;
+    margin-left: 3px;
+    width: max-content;
+}
+
+.ani-name {
+    color: #F51B41;
+    font-family: Futura;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.living-space {
+    color: #121212;
+    font-family: Comfortaa;
+    font-size: 19.412px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.776px;
+    padding-top: 5px;
+}
+
+.ani-dark {
+    color: #FFF;
+}
+
+.header {
+    margin-left: 15%;
+}
+
+.header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    transition: transform 0.5s;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
+
+
+.header li a {
+    color: #666;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header li a:hover {
+    color: #F51B41;
+    font-weight: 400;
+}
+
+.header ul li a::after {
+    content: "";
+    background: #F51B41;
+    height: 2px;
+    width: 0;
+    border-radius: 100px;
+    position: absolute;
+    left: 30%;
+    top: 110%;
+}
+
+.header ul li a:hover::after {
+    color: #F51B41;
+    width: 43%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.button-container {
+    display: flex;
+    margin-right: 2%;
+    justify-content: space-between;
+    padding: 18px 24px;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #F51B41;
+    background: var(--Neutral-Colors-White, #FFF);
+    padding: 18px 24px;
+    color: #F51B41;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1px;
+    cursor: pointer;
+    min-width: fit-content;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-red {
+    color: #FFF;
+    background-color: #F51B41;
+}
+
+.button-white {
+    color: #F51B41;
+    background-color: #FFF;
+}
+
+.chat-icon {
+    margin-right: 7px;
+}

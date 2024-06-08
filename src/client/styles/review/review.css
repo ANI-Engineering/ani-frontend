@@ -1,0 +1,88 @@
+.review-box {
+    width: 24.25rem;
+    height: 20.4375rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(153, 153, 153, 0.20);
+    background: var(--Neutral-Colors-White, #FFF);
+    margin: 2rem;
+}
+
+.review-box:hover {
+    border-radius: 1.5rem;
+    border: 1px solid #545454;
+    background: var(--Neutral-Colors-White, #FFF);
+    box-shadow: 2px 2px 0px 0px #545454;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.review-box:hover .quotes {
+    color: red;
+    fill: red;
+}
+
+.review-quotes {
+    display: flex;
+    margin: 2.05rem 2rem;
+}
+
+
+
+.review-text-wrapper {
+    display: flex;
+    width: 19.25rem;
+    margin-left: 2rem;
+}
+
+.review-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: left;
+    justify-content: left;
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 133.333% */
+}
+
+.review-image-name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.25rem;
+    margin-left: 2rem;
+}
+
+.profile-name-purpose {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.profile-name {
+    text-align: left;
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+}
+
+.profile-purpose {
+    text-align: left;
+    margin-top: 3%;
+    color: #666;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+}

@@ -1,0 +1,44 @@
+<svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="19" height="20" fill="#1E1E1E"/>
+<g id="Red">
+<path d="M-2930 -805C-2930 -806.105 -2929.1 -807 -2928 -807H12245C12246.1 -807 12247 -806.105 12247 -805V3912C12247 3913.1 12246.1 3914 12245 3914H-2928C-2929.1 3914 -2930 3913.1 -2930 3912V-805Z" fill="#303030"/>
+<path d="M-2928 -806H12245V-808H-2928V-806ZM12246 -805V3912H12248V-805H12246ZM12245 3913H-2928V3915H12245V3913ZM-2929 3912V-805H-2931V3912H-2929ZM-2928 3913C-2928.55 3913 -2929 3912.55 -2929 3912H-2931C-2931 3913.66 -2929.66 3915 -2928 3915V3913ZM12246 3912C12246 3912.55 12245.6 3913 12245 3913V3915C12246.7 3915 12248 3913.66 12248 3912H12246ZM12245 -806C12245.6 -806 12246 -805.552 12246 -805H12248C12248 -806.657 12246.7 -808 12245 -808V-806ZM-2928 -808C-2929.66 -808 -2931 -806.657 -2931 -805H-2929C-2929 -805.552 -2928.55 -806 -2928 -806V-808Z" fill="white" fill-opacity="0.1"/>
+<g id="A" clip-path="url(#clip0_369_5252)">
+<rect width="1440" height="4069" transform="translate(-1126 -480)" fill="white"/>
+<g id="Frame 1000001276">
+<g id="Frame 1000001270">
+<g id="Group 1000001262">
+<g id="Rectangle 5158" filter="url(#filter0_d_369_5252)">
+<rect x="-951" y="-39" width="1089" height="98" rx="49" fill="white"/>
+<rect x="-950.3" y="-38.3" width="1087.6" height="96.6" rx="48.3" stroke="#999999" stroke-opacity="0.16" stroke-width="1.4"/>
+</g>
+</g>
+<g id="Master Secondary Button">
+<rect x="-22" y="-12" width="128" height="44" rx="22" fill="#121212"/>
+<g id="Line Rounded/Search">
+<g id="Search">
+<path id="Vector" d="M8.57391 16.182C12.6649 16.182 15.9813 12.8656 15.9813 8.7746C15.9813 4.6836 12.6649 1.36719 8.57391 1.36719C4.48291 1.36719 1.1665 4.6836 1.1665 8.7746C1.1665 12.8656 4.48291 16.182 8.57391 16.182Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M17.8334 18.0336L13.8057 14.0059" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_369_5252" x="-959" y="-45" width="1105" height="114" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.329412 0 0 0 0 0.329412 0 0 0 0 0.329412 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_369_5252"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_369_5252" result="shape"/>
+</filter>
+<clipPath id="clip0_369_5252">
+<rect width="1440" height="4069" fill="white" transform="translate(-1126 -480)"/>
+</clipPath>
+</defs>
+</svg>
