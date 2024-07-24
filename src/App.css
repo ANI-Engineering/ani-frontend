@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.main-content {
+  margin-top: 105px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

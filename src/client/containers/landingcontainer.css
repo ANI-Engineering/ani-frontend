@@ -1,9 +1,9 @@
-/* .landing-container {
-    height: 100%;
+.landing-container {
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-} */
+    row-gap: 20px;
+}
 
 .sticky-button {
     position: fixed;
